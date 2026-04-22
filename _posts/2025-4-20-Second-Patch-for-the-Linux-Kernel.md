@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Second patch for the Linux Kernel: using guards instead of manual lock + unlocks"
-by: Guilherme Santos Gabriel
 ---
 Guilherme Santos Gabriel
 
