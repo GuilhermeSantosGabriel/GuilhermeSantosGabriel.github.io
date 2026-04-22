@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "First patch for the Linux Kernel: deduplicating code in the amdgpu driver"
-"
 ---
 
 # First patch for the Linux Kernel: deduplicating code in the amdgpu driver
