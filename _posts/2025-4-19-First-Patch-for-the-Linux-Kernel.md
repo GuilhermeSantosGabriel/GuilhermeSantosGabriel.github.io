@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "First patch for the Linux Kernel: deduplicating code in the amdgpu driver"
+by: Guilherme Santos Gabriel
 ---
-
-# First patch for the Linux Kernel: deduplicating code in the amdgpu driver
 
 **This is the first** of the two patches made in tandem with Gabriel Dimant and Andre Jun Hirata for the MAC0470 course on Free Software Development. Here we will be (atempting) to create a patch that tries to solve a **duplicated piece of code** inside the DRM subsystem (drivers/gpu/drm/amd/amdgpu/) of the Linux Kernel.
 
