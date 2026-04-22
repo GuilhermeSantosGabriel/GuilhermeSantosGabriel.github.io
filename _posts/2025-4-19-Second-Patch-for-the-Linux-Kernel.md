@@ -3,6 +3,7 @@ layout: post
 title:  "Second patch for the Linux Kernel: using guards instead of manual lock + unlocks"
 by: Guilherme Santos Gabriel
 ---
+Guilherme Santos Gabriel
 
 **This is the second** of the two patches made in tandem with Gabriel Dimant and André Jun Hirata for the MAC0470 course on Free Software Development. This time we will be attempting to breathe new life to a file by updating the manual lock and unlock operations with the (kinda) new, shiny **guard!**
 

@@ -3,6 +3,7 @@ layout: post
 title:  "First patch for the Linux Kernel: deduplicating code in the amdgpu driver"
 by: Guilherme Santos Gabriel
 ---
+Guilherme Santos Gabriel
 
 **This is the first** of the two patches made in tandem with Gabriel Dimant and Andre Jun Hirata for the MAC0470 course on Free Software Development. Here we will be (atempting) to create a patch that tries to solve a **duplicated piece of code** inside the DRM subsystem (drivers/gpu/drm/amd/amdgpu/) of the Linux Kernel.
 
@@ -12,7 +13,7 @@ The subsystem that we chose was taken from a list made by the MAC0470 team of po
 
 ## What was identified?
 
-As the amdgpu driver is responsible for a miriad of different GPUs, it is fairly common to have different versions of files that are slightly different so as to accomodate both new and old graphics cards. Sometimes implementations are not actually changed: as one version is copied and then pasted to a new file dedicated to new versions, some functions actually end up beeing exactly the same but with a fresh coat of paint (AKA a new function name).
+As the amdgpu driver is responsible for a myriad of different GPUs, it is fairly common to have different versions of files that are slightly different so as to accomodate both new and old graphics cards. Sometimes implementations are not actually changed: as one version is copied and then pasted to a new file dedicated to new versions, some functions actually end up beeing exactly the same but with a fresh coat of paint (AKA a new function name).
 
 That was the scenario that sumarized the files gmc_v10_0.c and gmc_v11_0.c of the driver: Both of these files represent different versions of the same functionality and ended up with two **100% identical functions:**
 
