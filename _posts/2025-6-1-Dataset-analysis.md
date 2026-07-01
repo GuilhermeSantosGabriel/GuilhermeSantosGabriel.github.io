@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "(2/2) Análise de sentimentos no dataset LKML5Ws"
+---
+Guilherme Santos Gabriel
+
 # Análise de sentimento — lista de e-mails amd-gfx
 
 Esse é o segundo post relacionado a como os dados do dataset LKML5Ws, especificamente na lista da amd-gfx, foram analisados num processo de análise de sentimento usando a ferramenta VADER para a disciplina de Desenvolvimento de Software Livre no IME-USP.
