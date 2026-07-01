@@ -4,7 +4,6 @@ title:  "(1/2) Análise de sentimentos no dataset LKML5Ws"
 ---
 Guilherme Santos Gabriel
 
-
 # Preparo dos dados e scoring de sentimento — lista amd-gfx
 
 Esse é o primeiro post relacionado a como os dados do dataset LKML5Ws, especificamente na lista da amd-gfx, foram processados e pontuados num processo de análise de sentimento usando a ferramenta VADER para a disciplina de Desenvolvimento de Software Livre no IME-USP.
@@ -146,8 +145,6 @@ def clean_email(body: str) -> str:
 ```
 
 ## Carregando e filtrando o dataset
-
-> **TODO:** explicar o escopo da análise — por que restringir aos e-mails com patch tag, e como o `thread_id` é aplicado logo em seguida.
 
 Agora vamos carregar o dataset, filtrá-lo apenas por patches (para facilitar a análise, já que patches são melhor formatados que discussões e porque permitirá análises melhores na próxima etapa) e dividí-lo pelos thread_id.
 
